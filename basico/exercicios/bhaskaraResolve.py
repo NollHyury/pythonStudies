@@ -1,3 +1,5 @@
+#3.Escreva um programa que resolva uma equação de segundo grau.   
+
 a = -2
 b = 3
 c = 5
