@@ -1,7 +1,18 @@
-a = 2
-b = 1
-c = -3
+a = -2
+b = 3
+c = 5
 
-delta = b**2 ((-4*a)*c)
+#determina o valor de delta
+delta = b**2 -4*a*c
 
-print(delta)
+# efetua o calculo da raiz quadrada
+deltaRoot = delta ** (0.5)
+
+#efetua o calculo com o operador de adição
+xBig = (-b + deltaRoot) / (2*a)
+
+#efetua o calculo com o operador de subtração
+xSmall = (-b - deltaRoot) / (2*a)
+
+print("Big value: "+str(xBig))
+print("Small value: "+str(xSmall))
